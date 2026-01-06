@@ -1,5 +1,7 @@
 # Claude Agent SDK Skills
 
+[中文文档](./README_CN.md) | English
+
 Custom Claude Code skills for expert assistance with the Claude Agent SDK (TypeScript and Python).
 
 ## Overview
@@ -9,7 +11,9 @@ This project provides specialized skills for Claude Code that deliver expert kno
 ## Available Skills
 
 ### agent-sdk-ts
+
 TypeScript Agent SDK expert providing:
+
 - Core SDK functions: `query()`, `tool()`, `createSdkMcpServer()`
 - Configuration options and use cases
 - Agent definitions and subagent patterns
@@ -23,7 +27,9 @@ TypeScript Agent SDK expert providing:
 - Sandbox configuration and security
 
 ### agent-sdk-py
+
 Python Agent SDK expert providing:
+
 - Core SDK functions: `query()`, `ClaudeSDKClient`, `tool()`, `create_sdk_mcp_server()`
 - Choosing between `query()` vs `ClaudeSDKClient` for different use cases
 - Configuration options with `ClaudeAgentOptions`
@@ -57,6 +63,7 @@ These skills are automatically invoked by Claude Code when you ask questions abo
 - Best practices
 
 Example prompts:
+
 - "How do I use the query() function in the Python SDK?"
 - "Create a custom MCP tool with TypeScript"
 - "Set up a permission hook to block certain operations"
@@ -65,6 +72,7 @@ Example prompts:
 ## Documentation References
 
 Each skill includes comprehensive documentation references:
+
 - **TypeScript**: See `.claude/skills/agent-sdk-ts/AGENT_SDK_DOCS.md`
 - **Python**: See `.claude/skills/agent-sdk-py/AGENTS_SDK_DOCS.md`
 
@@ -79,7 +87,7 @@ Each skill includes comprehensive documentation references:
 
 ## Project Structure
 
-```
+```text
 claude-agent-sdk-skill/
 ├── .claude/
 │   └── skills/
